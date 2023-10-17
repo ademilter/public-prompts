@@ -1,8 +1,10 @@
 export default function Home() {
     return (
         <main className="min-h-screen">
-            <header className="text-center p-6">
-                <h1>Curated by @ademilter</h1>
+            <header className="bg-zinc-100 dark:bg-zinc-900 flex items-center justify-between px-4 lg:px-14 py-6">
+                <h1>
+                    <a target="_blank" href="https://twitter.com/ademilter">Curated by @ademilter</a>
+                </h1>
 
                 <a className="underline text-blue-500" target="_blank" href="https://airtable.com/app7ZuB47ASMoCSHY/shrW5pQXlChBeJ4ik">Submit for review</a>
             </header>
