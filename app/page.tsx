@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <main className="bg-white min-h-screen">
+        <main className="min-h-screen">
             <header className="text-center p-6">
                 <h1>Curated by @ademilter</h1>
             </header>
