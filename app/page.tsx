@@ -16,10 +16,11 @@ export default function Home() {
           Submit for review
         </a>
       </header>
+
       <iframe
         className="border-0 w-full h-screen"
         allowFullScreen
-        src="https://raindrop.io/ademilter/prompt-share-38467538/embed/sort=-created&theme=auto&hide=header%2C+excerpt%2C+note"
+        src="https://raindrop.io/ademilter/prompt-share-38467538/embed/sort=-created&theme=auto&hide=header%2C+excerpt%2C+note%2C+info%2C+info"
       />
     </main>
   );
